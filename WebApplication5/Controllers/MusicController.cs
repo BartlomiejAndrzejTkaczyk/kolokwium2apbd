@@ -37,8 +37,8 @@ namespace WebApplication5.Controllers
                             .Count();
             if (count > 0)
                 return BadRequest("Nie można usunąć tego muzyka");
-            
-            return Ok()
+
+            return Ok();
         }
     }
 }
